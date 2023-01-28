@@ -13,6 +13,7 @@ public class lambdaClient {
 	
 	str2 = (a,b)->a.toUpperCase()+b;
 	
+	f
 	String lambdaUse(StringManip sm, boolean flag) {
 		return flag + sm.apply("hello", 34);
 	}
