@@ -1,4 +1,6 @@
-	class Shape {
+package com.lpu.shape.old;
+
+class Shape {
 		   public void display1() {
 		      System.out.println("shape");
 		   }

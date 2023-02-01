@@ -1,6 +1,5 @@
 package com.lpu.anno;
 
-
 /*
  * Annotations, a form of metadata, provide data about 
  * a program 
@@ -15,8 +14,6 @@ package com.lpu.anno;
  * An annotation processor processes these annotations at compile time or runtime to provide functionality such as code generation, 
  * error checking, etc.
  */
-
-
 import static java.lang.annotation.ElementType.TYPE;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
@@ -29,3 +26,4 @@ import java.lang.annotation.Target;
 public @interface Graphics {
  String intense() default "Medium";
  int intensityValue() default 1 ;
+}

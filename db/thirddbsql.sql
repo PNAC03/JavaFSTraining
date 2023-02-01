@@ -42,3 +42,5 @@ select e.employee_id, e.first_name, d.department_id from employees e JOIN depart
 
 -- select all the employees which have no department.
 select e.employee_id, e.first_name, d.department_id from employees e JOIN departments d ON e.department_id = d.department_id where d.department_id is null;
+
+select * from employees where employee_id <= 200;
