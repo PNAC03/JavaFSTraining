@@ -5,6 +5,10 @@ public class Employee{
 	int empId;
 	double salary;
 	
+	public Employee(int empId) {
+		this.empId=empId;
+	}
+	
 	public Employee(String name, int empId, double salary) {
 		super();
 		this.name = name;
